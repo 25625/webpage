@@ -1,0 +1,55 @@
+body{
+	background-color: #facfbe;
+}
+header{
+	display: inline-flex;
+	flex: wrap;
+	align-items: center;
+	border: 5px solid darkred;
+	border-radius: 30px;
+	text-align: right;
+	width: 96%;
+	justify-content: space-between;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+.heading{
+	display: inline-flex;
+	font-size: 50px;
+	padding-left: 5px;
+	text-align: center;
+}
+#start{
+	margin-top: 10px;
+}
+.nav_lists{
+	display: inline-block;
+	padding-right: 10px;
+	padding-left: 10px;
+	text-align: right;
+}
+nav{
+	padding-right: 0%;
+}
+.Academics{
+	text-align: center;
+	padding: 3px;
+	border: 2px solid red;
+	border-collapse: collapse;
+	border-radius: 10px;
+}
+#tabAcademics{
+	border: 2px solid red;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.Academics:hover{
+	background-color: greenyellow;
+	color: red;
+	font-size: 20px;
+	font-display: None;
+}
+.Skill{
+	text-align: left;
+}
